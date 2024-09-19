@@ -20,7 +20,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile and Hot-Reload for Development (localhost:3000)
 
 ```sh
 npm run dev
@@ -32,7 +32,7 @@ npm run dev
 npm run build
 ```
 
-### Setup Production (after npm run build)
+### Setup Production (after npm run build)(localhost:3000)
 
 ```sh
 npm run server
