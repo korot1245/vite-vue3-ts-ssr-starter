@@ -4,7 +4,7 @@ import Token from '@/libs/token'
 import { errorNotify, successNotify, infoNotify, warningNotify } from '@/libs/notifications'
 
 const instance = axios.create()
-instance.defaults.baseURL = 'http://api-guzheat/api/v1'
+instance.defaults.baseURL = 'http://your-domen/api/v1'
 instance.interceptors.request.use((config) => {
     const token = Token.get()
     config.headers.Authorization = token ? `Bearer ${token}` : ""
