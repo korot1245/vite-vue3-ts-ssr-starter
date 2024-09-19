@@ -41,7 +41,6 @@
   </div>
 </template>
   <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue'
 import { Icon } from '@iconify/vue'
 
 defineProps<{
