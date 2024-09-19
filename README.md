@@ -1,4 +1,4 @@
-# guzheat
+# starter
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -30,6 +30,12 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+### Setup Production (after npm run build)
+
+```sh
+npm run server
 ```
 
 ### Lint with [ESLint](https://eslint.org/)

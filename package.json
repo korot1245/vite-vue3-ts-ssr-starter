@@ -8,6 +8,7 @@
     "serve": "SET NODE_ENV=production & node ./src/server.js",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --ssrManifest --outDir dist/client",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build:server": "vite build --ssr src/main-server.js --outDir dist/server"
   },
   "dependencies": {
